@@ -1,24 +1,52 @@
 h1{
-    color: orange;
+    color: #FFA500; 
 }
 
 .menu{
-    background-color:black;
+    background-color:#000000;
     justify-content: space-between;
     display:flex;
     font-size: 20px;
     font-family: algerian;
     font-weight: 400;
-    color:white;
+    color:#FFFFFF;
 }
 
 .origamiDesign{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    padding: 30px;
+    margin: 25;
+    background-color: #FFFFFF;
+    font-size: 11px;
+    border: 2px solid #FFA500;
+    border-radius: 50px;
+}
+
+.picture{
+    margin: 25;
+    
 }
 
 .grid{
-    /**display:flex;**/
+    display:flex;
     flex-wrap:wrap;
+    font-family: sans-serif;
+    border: 5px solid #000000;
+    border-radius: 50px;
+}
+
+body{
+    margin: 0px;
+}
+
+.mainIntro{
+    font-size: 20px;
+    margin: 50px;
+    color: #FFA500;
+    background-color: #000000;
+    display:flex;
+    flex-wrap: wrap;
 }
 
