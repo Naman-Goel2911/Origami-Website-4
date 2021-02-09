@@ -1,5 +1,6 @@
 h1{
     color: #FFA500; 
+    margin: 25px;
 }
 
 .menu{
@@ -50,3 +51,26 @@ body{
     flex-wrap: wrap;
 }
 
+a:link{
+    color: #FFFFFF;
+}
+
+a:visited{
+    color:#FFFFFF;
+}
+
+.origamiDesign:hover{
+    transform: scale(1.1);
+}
+
+.origamiDesign ul{
+    opacity: 0;
+}
+
+.origamiDesign:hover ul{
+    opacity: 1;
+}
+
+.link{
+    margin: 25px;
+}
